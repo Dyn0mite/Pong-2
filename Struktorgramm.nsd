@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;physics&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Ballgeschwindigkeit v = 10.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Abstand Ball zur Oberkante des Fensters = y&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;(goingDown)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;y += v&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;y -= v&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;(y + Höhe des Balls &#62; Höhe des Fensters)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;goingDown = false&#34;,&#34;y = Höhe des Fensters - Höhe des Balls&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<alternative text="&#34;(y &#60; 0.0)&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;goingDown = true&#34;,&#34;y = 0.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Abstand Ball zur Oberkante des Fensters = y&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Abstand Ball zur linken Seite des Fensters = x&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;(goingRight)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;x += v&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;x -= v&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;(x + Breite des Balls &#62; Breite des Fensters)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;goingRight = true&#34;,&#34;scoreP1++&#34;,&#34;Anzeige der Punktezahl von Spieler 1 = scoreP1&#34;,&#34;x = Breite des Fensters - Breite des Balls&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<alternative text="&#34;(x &#60; 0.0)&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;goingRight = true&#34;,&#34;scoreP2++&#34;,&#34;Anzeige der Punktzahl für Spieler 2 = scoreP2&#34;,&#34;x = 0.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<alternative text="&#34;(CheckCollision(Paddel Spieler 2, Ball))&#34;" comment="&#34;&#34;" color="ffffff">
+							<qTrue>
+								<instruction text="&#34;goingRight = false&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<alternative text="&#34;((CheckCollision(Paddel Spieler 1, Ball)))&#34;" comment="&#34;&#34;" color="ffffff">
+									<qTrue>
+										<instruction text="&#34;goingRight = true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+									</qTrue>
+									<qFalse>
+									</qFalse>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qFalse>
+				</alternative>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Abstand Ball zur LinkenSeite des Fensters = x&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Geschwindigkeit des linken Paddel = vRec1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Abstand des linken Paddel zur Oberkante des Fensters = yRec1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;(yRec1 + vRec1 &#60; 0.0)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;yRec1 = 0.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<alternative text="&#34;(yRec1 + Höhe des Paddels + Geschwindigkeit des Paddels &#62; Höhe des Fensters)&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;yRec1 = Höhe des Fensters - Höhe des Paddels&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Abstand des linken Paddels = yRec1 + vRec1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Geschwindigkeit des rechten Paddels = vRec2&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Abstand des rechten Paddels zur Oberkante des Fensters = yRec2&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;(yRec2 + vRec2 &#60; 0.0)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;yRec2 = 0.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<alternative text="&#34;(yRec2 + Höhe des Paddels + Geschwindigkeit des Paddels &#62; Höhe des Fensters)&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;yRec2 = Höhe des Fensters - Höhe des Paddels&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Abstand des rechten Paddels = yRec2 + vRec2&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Abstand des rechten Paddel zur Oberkante des Fensters = yRec2&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

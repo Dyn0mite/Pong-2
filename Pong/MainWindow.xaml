@@ -1,0 +1,17 @@
+﻿<Window x:Class="Pong.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pong-Clone | Jan Smolka | IT-11-c | Dezember 2012" Height="400" Width="500" ResizeMode="CanMinimize">
+    <Grid Name="theGrid">
+        <Menu Height="23" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="502">
+            <MenuItem Header="_Datei" Name="miDatei">
+                <MenuItem Header="_Start" Name="miStart" Click="miStart_Click" />
+                <MenuItem Header="_Einstellungen" Name="miEinstellungen" Click="miEinstellungen_Click" />
+                <Separator />
+                <MenuItem Header="_Beenden" Name="miBeenden" Click="miBeenden_Click" />
+            </MenuItem>
+            <MenuItem Header="_Hilfe" Name="miHilfe" Click="miHilfe_Click" />
+        </Menu>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,39 @@
+F:\Jan_IT-11-C\PongSolution\Pong\bin\Debug\Pong.exe
+F:\Jan_IT-11-C\PongSolution\Pong\bin\Debug\Pong.pdb
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\MainWindow.baml
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\MainWindow.g.cs
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\App.g.cs
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong_MarkupCompile.cache
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.g.resources
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.Properties.Resources.resources
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.exe
+F:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.pdb
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.exe
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.pdb
+G:\Jan_IT-11-C\PongSolution\Pong\bin\Debug\Pong.exe
+G:\Jan_IT-11-C\PongSolution\Pong\bin\Debug\Pong.pdb
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\MainWindow.baml
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\MainWindow.g.cs
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\App.g.cs
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong_MarkupCompile.cache
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.g.resources
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\Pong.Properties.Resources.resources
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Jan_IT-11-C\PongSolution\Pong\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\Pong.exe
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\Pong.pdb
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\bin\Debug\Pong.exe
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\bin\Debug\Pong.pdb
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\MainWindow.baml
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\MainWindow.g.cs
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\App.g.cs
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\Pong_MarkupCompile.cache
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\Pong.g.resources
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\Pong.Properties.Resources.resources
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SmO\Documents\Visual Studio 2010\Projects\PongSolution\Pong\obj\x86\Debug\GenerateResource.write.1.tlog
